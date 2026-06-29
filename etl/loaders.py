@@ -4,11 +4,10 @@ Data Loaders
 Write transformed data to Azure targets (ADLS, SQL, console).
 """
 
-import csv
-import io
+
 import json
 import logging
-from datetime import datetime
+
 
 from etl.pipeline import BaseLoader
 
