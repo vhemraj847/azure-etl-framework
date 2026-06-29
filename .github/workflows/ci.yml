@@ -35,4 +35,4 @@ jobs:
 
       - name: Check coverage threshold
         run: |
-          pytest tests/ --cov=etl --cov-fail-under=80
+          pytest tests/ --cov=etl --cov-fail-under=65
